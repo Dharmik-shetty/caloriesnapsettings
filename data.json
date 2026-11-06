@@ -3,5 +3,7 @@
   "obligatory_update_for_ver_beloworequal": "0",
   "update_link": "https://play.google.com/store/apps/details?id=com.caloriesnap",
   "llm_model": "gemini-3.1-flash-lite",
-  "model":"gemini"
+  "model":"gemini",
+  "gemini_thinking_budget": 0,
+  "claude_thinking_budget": 0
 }
