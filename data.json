@@ -1,0 +1,6 @@
+{
+  "compulsory_update_for_ver_beloworequal": "1.4",
+  "obligatory_update_for_ver_beloworequal": "0",
+  "update_link": "https://play.google.com/store/apps/details?id=com.caloriesnap",
+  "llm_model": "gemini-2.5-flash-lite"
+}
