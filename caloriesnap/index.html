@@ -295,7 +295,7 @@ document.getElementById("cookieset").onclick=function(e){e.preventDefault();bar.
 /* Google Ads conversion: fires when someone taps any Play Store button.
    Paste the label from Google Ads (Goals > Conversions > your action > Tag setup > Event snippet)
    so it looks like  AW-18093576311/AbCdEfGhIjKlMnOp  */
-var CONVERSION="AW-18093576311/REPLACE_WITH_YOUR_CONVERSION_LABEL";
+var CONVERSION="AW-18093576311/I7QHCInWmrYdEPeg2LND";
 [].forEach.call(document.querySelectorAll('a[href*="play.google.com"]'),function(a){
   a.addEventListener("click",function(){
     if(CONVERSION.indexOf("REPLACE")===-1){gtag("event","conversion",{send_to:CONVERSION,transport_type:"beacon"})}
