@@ -66,7 +66,7 @@ h1 em::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:5px;
 .store-buttons{display:flex;align-items:stretch;gap:10px;width:100%;max-width:620px;margin:0 auto}
 .store-buttons .btn{display:flex;flex:1 1 0;min-width:0;width:auto;max-width:none;padding:14px 12px;font-size:16px;gap:8px;white-space:nowrap}
 .store-buttons .btn svg{width:21px;height:21px}
-.store-buttons .btn.ios{background:#202124;box-shadow:0 6px 0 var(--navy)}
+.store-buttons .btn.ios{background:var(--ink);color:var(--bg);box-shadow:0 6px 0 var(--navy)}
 .store-buttons .btn.ios:active{box-shadow:0 0 0 var(--navy)}
 @media (hover:hover){.store-buttons .btn.ios:hover{box-shadow:0 4px 0 var(--navy)}.store-buttons .btn.ios:active{box-shadow:0 0 0 var(--navy)}}
 .micro{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin:20px 0 0;padding:0;list-style:none;font-size:14px;color:var(--mute);font-weight:600}
@@ -157,7 +157,7 @@ footer a{display:inline-block;padding:6px 2px}
 .sticky .btn svg{width:20px;height:20px}
 .sticky-actions{display:flex;align-items:center;gap:8px;flex:none}
 .sticky .sticky-actions{flex:none;min-width:max-content;overflow:visible;text-overflow:clip;white-space:normal}
-.sticky-actions .btn.ios{background:#202124;box-shadow:0 4px 0 var(--navy)}
+.sticky-actions .btn.ios{background:var(--ink);color:var(--bg);box-shadow:0 4px 0 var(--navy)}
 
 /* cookie banner */
 .consent{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:50;max-width:520px;margin:0 auto;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 12px 40px rgba(0,0,0,.28);font-size:14.5px;line-height:1.5}
@@ -237,7 +237,7 @@ footer a{display:inline-block;padding:6px 2px}
   <div>
     <span class="tag"><svg><use href="#uj"/></svg>Trained on British food</span>
     <h1>Snap your tea. Know your <em>calories.</em></h1>
-    <p class="sub">The calorie counter built around <b>British plates</b> from a full English to Friday’s chippy tea. One photo. No searching, no typing.</p>
+    <p class="sub">The calorie counter built around <b>British plates</b> – from a full English to Friday’s chippy tea. One photo. No searching, no typing.</p>
     <div class="store-buttons" aria-label="Download CalorieSnap">
       <a class="btn" id="cta" href="https://play.google.com/store/apps/details?id=com.caloriesnap" aria-label="Install CalorieSnap on Google Play"><svg aria-hidden="true"><use href="#play"/></svg>Google Play</a>
       <a class="btn ios" href="https://apps.apple.com/us/app/caloriesnap-ai-calorie-counter/id6834809411" aria-label="Download CalorieSnap on the App Store"><svg aria-hidden="true"><use href="#apple"/></svg>App Store</a>
